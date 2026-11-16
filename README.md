@@ -1,30 +1,27 @@
 # Gastos de la casa
 
-Lista de gastos/productos del hogar: añadir, borrar por posición y vaciar. Ejercicio de arrays en JavaScript.
+Lista simple de gastos del hogar: añadir, borrar por posición y vaciar. Práctica de arrays.
 
 ## Qué hace
 
 - Añadir un gasto (texto)
-- Mostrar la lista y el número de ítems
-- Eliminar por posición
-- Vaciar la lista
+- Ver la lista y cuántos hay
+- Quitar por índice o vaciar
 - Guía en `guide.html`
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/Gastos-de-la-casa-/
 
 ## Cómo lo construí
 
-- HTML + JavaScript
-- Array `carrito` en `app.js` con render en el DOM
-- Sin precios ni persistencia (versión más simple que `lista-de-compras`)
+Misma idea que la lista de compras, pero sin precios: un array en `app.js` y pintado en el DOM.
 
 ## Cómo verificarlo
 
-Sin tests. Añado varios ítems, borro por índice y vacío la lista.
+Añado varios ítems, borro uno del medio y vacío la lista.
 
 ---
 
